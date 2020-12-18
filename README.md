@@ -1,5 +1,6 @@
 <h1 align="center"> Convolution Visualizer </h1>
 
+## Usage ##
 ### Ensure all python dependencies are installed using: ### 
 `pip install -r requirements.txt` 
 ### Run visualizer using: ###
