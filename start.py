@@ -25,12 +25,17 @@ def createFunc(inp):
     print("2. Rect")
     print("3. Triangle")
     print("4. Exponential")
+    print("5. Delta")
     f = int(input("Base function: "))
     amp = float(input("Enter Amplitude: "))
     offset = float(input("Enter time shift: " ))
     
+    #if delta
+    if(f == 5):
+        return calc(myfunc.Delta(amp, offset), inp)
+
     #if exponential
-    if(f == 4):
+    elif(f == 4):
         tscale = float(input("Enter time scale: "))
         lBound = input("Enter lower bound. If unbounded press enter: ")
         uBound = input("Enter upper bound. If unbounded press enter: ")

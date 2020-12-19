@@ -1,5 +1,15 @@
 import numpy as np
 
+class Delta():
+    def __init__(self, amp = 1, offset = 0):
+        self.amplitude = amp * 50
+        self.offset = -1*offset
+        self.lower = self.offset - 0.01
+        self.upper = self.offset + 0.01
+
+    def getVal(self, t):
+        return self.amplitude if (t >= self.lower and t < self.upper) else 0.0
+
 class Step():
     def __init__(self, amp = 1, offset = 0):
         self.amplitude = amp
