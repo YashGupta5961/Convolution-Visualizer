@@ -131,6 +131,3 @@ main()
 
 # ft = calc(myfunc.Rect(1, 3, 2), inp) + calc(myfunc.Rect(-2, -3.5, 3), inp)
 # ht = calc(myfunc.Rect(2, -1, 2), inp)
-
-# # ft = calc(myfunc.Triangle(1, 0.5, 2), inp) + calc(myfunc.Triangle(1, -0.5, 2), inp)
-# # ht = calc(myfunc.Step(1, 0), inp)
